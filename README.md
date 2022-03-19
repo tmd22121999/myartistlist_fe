@@ -1,5 +1,4 @@
 frontend for myartistlist app
-license from vue webpack
 
 # {{ name }}
 
