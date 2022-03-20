@@ -1,7 +1,10 @@
 <template>
-  <div class="Test">
+  <div class="test">
     <h1>\{{ msg }}</h1>
     <h2>Essential Links</h2>
+    <router-link :to="{ name: 'HelloWorld' }">Home</router-link>
+    <router-link :to="{ name: 'Test' }">test</router-link>
+    <router-view></router-view>
   </div>
 </template>
 
